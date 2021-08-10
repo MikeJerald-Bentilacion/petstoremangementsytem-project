@@ -1606,7 +1606,7 @@ class history(tk.Frame):
         self.btnappo = tk.Button(self, image=self.btng, bd=0, bg="white",command=lambda: controller.show_frame(AddPage))
         self.btnappo.place(x=155,y=167)
         self.btnappo.config(cursor= "hand2")        
-        self.btnappo.bind("<Button-1>",clickevent1)
+        #self.btnappo.bind("<Button-1>",clickevent1)
         
         #Button = tk.Button(self, text="Home", font=("Courier", 12, "bold"), bd=0, bg="white", fg="grey23", command= lambda: controller.show_frame(HomePage))
         #Button.place(x=450,y=90)
